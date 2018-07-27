@@ -35,8 +35,8 @@ In home.ts the notification is scheduled inside the submit fucntion.
       buttons: ['OK']
     });
     alert.present();
-    this.data = { title: '', description: '', date: '', time: '' };
-  }
+    this.data = { title: '', description: '', date: '', time: '' }; 
+    }
 
 
 As you can see there is a data field in notifications to pass any hidden data while scheduling notifications so that you ca retrieve 
